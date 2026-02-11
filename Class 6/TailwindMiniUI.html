@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini UI with Tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="text-white text-lg font-bold">MyBrand</div>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="text-gray-300 hover:text-white">Home</a></li>
+                <li><a href="#" class="text-gray-300 hover:text-white">About</a></li>
+                <li><a href="#" class="text-gray-300 hover:text-white">Services</a></li>
+                <li><a href="#" class="text-gray-300 hover:text-white">Contact</a></li>
+            </ul>
+
+            <ul class="flex space-x-4">
+                <li><a href="./1_LoginForm.html" class="text-gray-300 hover:text-white">Login</a></li>
+                <li><a href="./2_RegisterForm.html" class="bg-blue-600 text-white px-3 py-1 rounded">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="bg-blue-600 text-white py-20 text-center">
+
+        <h1 class="text-4xl font-bold mb-4">
+            Welcome to Our Website
+        </h1>
+
+        <p class="mb-6">
+            Build modern UI faster with Tailwind CSS
+        </p>
+
+        <button class="bg-white text-blue-600 px-6 py-2 rounded">
+            Get Started
+        </button>
+
+    </section>
+
+    <section class="p-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <div class="p-6 border rounded shadow">
+            <h3 class="font-bold mb-2">Fast</h3>
+            <p>Optimized performance</p>
+        </div>
+
+        <div class="p-6 border rounded shadow">
+            <h3 class="font-bold mb-2">Secure</h3>
+            <p>Best security practices</p>
+        </div>
+
+        <div class="p-6 border rounded shadow">
+            <h3 class="font-bold mb-2">Responsive</h3>
+            <p>Mobile first design</p>
+        </div>
+
+    </section>
+
+     <footer class="bg-gray-800 text-white p-10">
+
+        <div class="grid md:grid-cols-3 gap-6">
+
+            <div>
+                <h4 class="font-bold mb-2">About</h4>
+                <p>Modern UI with Tailwind</p>
+            </div>
+
+            <div>
+                <h4 class="font-bold mb-2">Links</h4>
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-bold mb-2">Contact</h4>
+                <p>info@mail.com</p>
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+</html>
